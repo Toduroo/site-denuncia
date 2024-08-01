@@ -1,0 +1,154 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #030303;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(to right, #4CAF50, #008CBA);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #45a049, #0073e6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #777;
+}
+
+.why-section {
+    background: linear-gradient(to right, #1a9658, #41c23d);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.why-section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.why-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#cabeçalho {
+    height: 100px;
+    background: linear-gradient(to right, #35c24c, #1e7527);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botao-bonito {
+    padding: 16px 40px;
+    align-items: center;
+    background: linear-gradient(to right, #45a049, #0073e6));
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-bonito:hover {
+    background: linear-gradient(to right, #45a049, #0073e6);
+}
+
+ul a {
+    color:  #7FFF00;
+}
+
+ul a:hover {
+    color: blue;
+    background-color: #2F80ED;
+}
+#butao-bonito.abandono {
+    color: #1da746;
+}
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 1; /* Ocupa o espaço disponível */
+}
+
+.image {
+    flex-shrink: 0; /* Não será redimensionado */
+    margin-left: 20px; /* Espaço entre a imagem e o texto */
+}
+#linkss{
+    ;
+}
